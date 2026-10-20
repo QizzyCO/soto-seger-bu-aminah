@@ -145,7 +145,7 @@ const Navbar: React.FC<NavbarProps> = ({ onHalalClick }) => {
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => trackWhatsAppClick('navbar_mobile', 'reservation')}
-              className="block w-full bg-emerald-600 text-white text-center py-4 rounded-2xl font-bold shadow-lg hover:bg-emerald-700 transition-colors"
+              className="relative z-10 block w-full pointer-events-auto touch-manipulation bg-emerald-600 text-white text-center py-4 rounded-2xl font-bold shadow-lg hover:bg-emerald-700 transition-colors"
             >
               Pesan Sekarang
             </a>
