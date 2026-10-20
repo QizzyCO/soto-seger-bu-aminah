@@ -13,7 +13,7 @@ export const RESTAURANT_INFO: RestaurantInfo = {
   tiktok: 'https://www.tiktok.com/@sotosegerbuaminah',
 };
 
-export const WHATSAPP_RESERVATION_URL = 'https://api.whatsapp.com/send/?phone=6281229346662&text&type=phone_number&app_absent=0';
+export const WHATSAPP_RESERVATION_URL = 'https://wa.me/6281229346662';
 export const WHATSAPP_PARTNER_URL = 'https://api.whatsapp.com/send/?phone=6281229346662&text=Halo,%20saya%20tertarik%20untuk%20menjadi%20mitra%20Soto%20Seger%20Bu%20Aminah&type=phone_number&app_absent=0';
 export const WHATSAPP_CATERING_URL = 'https://api.whatsapp.com/send/?phone=6281229346662&text=Halo%20Bu%20Aminah,%20saya%20ingin%20memesan%20katering%20Soto%20Seger%20untuk%20acara%20saya.%20Mohon%20info%20daftar%20menu%20dan%20harganya.%20Terima%20kasih.&type=phone_number&app_absent=0';
 export const MENU_PDF_URL = 'https://drive.google.com/file/d/1xzwsEV0icIsBzBqV0jWfvORMBH1u0fz1/view?usp=drive_link';
