@@ -14,7 +14,9 @@
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'G-ML0DECF0ZV');
+      // Page views are sent manually by App.tsx for SPA navigation.
+      // Disable the automatic initial page_view to prevent duplicate counts.
+      gtag('config', 'G-ML0DECF0ZV', { send_page_view: false });
     </script>
 
     <!-- Open Graph / Facebook -->
